@@ -16,9 +16,9 @@ def display_text(stdscr, target, current, wpm=0):
 	stdscr.addstr(1, 0, f"WPM: {wpm}")
 
 	for i, char in enumerate(current):
-		correct_char = target[i]
+		currect_char = target[i]
 		color = curses.color_pair(1)
-		if char != correct_char:
+		if char != currect_char:
 			color = curses.color_pair(2)
 
 		stdscr.addstr(0, i, char, color)
