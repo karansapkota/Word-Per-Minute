@@ -1,3 +1,4 @@
+#Importing required Modules
 import curses
 from curses import wrapper
 import time
